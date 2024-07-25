@@ -1,3 +1,12 @@
+import PizzaPeraponiImg from '../assets/images/PizzaPareponi.svg'
+import PizzaMeatImg from '../assets/images/pizzaMeat.svg'
+import DonarKebabImg from '../assets/images/donar-kebab.svg'
+import SalmonRollImg from '../assets/images/SalomROLL.svg'
+import CupcakeChocoImg from '../assets/images/cupcakeChoco.svg'
+import DoughnutMilkImg from '../assets/images/DoughnutMilk.svg'
+import DoughnutUnicornImg from '../assets/images/DoughnutUnicorn.svg'
+import KathiKebabImg from '../assets/images/KathiKebab.svg'
+
 export const Cupcake = () => {
   return (
     <svg
@@ -521,3 +530,51 @@ export const Doughnut = () => {
     </svg>
   );
 };
+
+export const PizzaPareponi = () => {
+  return (
+    <img src={PizzaPeraponiImg} alt="pizza_pareponi" />
+  )
+}
+
+export const PizzaMeat = () => {
+  return (
+    <img src={PizzaMeatImg} alt="pizza_meat" />
+  )
+}
+
+export const DonarKebab = () => {
+  return (
+    <img src={DonarKebabImg} alt="donar_kebab" />
+  )
+}
+
+export const SalmonRoll = () => {
+  return (
+    <img src={SalmonRollImg} alt="salmon_roll" />
+  )
+}
+
+export const CupcakeChoco = () => {
+  return (
+    <img src={CupcakeChocoImg} alt="cupcake_choco" />
+  )
+}
+
+export const DoughnutMilk = () => {
+  return (
+    <img src={DoughnutMilkImg} alt="cupcake_choco" />
+  )
+}
+
+export const DoughnutUnicorn = () => {
+  return (
+    <img src={DoughnutUnicornImg} alt="cupcake_choco" />
+  )
+}
+
+export const KathiKebab = () => {
+  return (
+    <img src={KathiKebabImg} alt="cupcake_choco" />
+  )
+}

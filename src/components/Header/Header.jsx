@@ -34,6 +34,7 @@ const Header = () => {
               <NavbarItems extraStyle={"!text-black"} title={"Masuk"} />
               <Button title={"Daftar Sekarang"} />
             </div>
+            
           </div>
           <div className="flex items-center justify-between">
             <div data-aos="fade-right" data-aos-duration="1300" className="w-[482px] flex flex-col gap-[32px]">
