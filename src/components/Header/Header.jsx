@@ -1,4 +1,4 @@
-import LogoImg from "../../assets/images/logo.png";
+import LogoImg from "../../assets/images/logo.svg";
 import NavbarItems from "../NavbarItems/NavbarItems";
 import Discount from "../Discount/Discount";
 import HeaderImg from "../../assets/images/header-bg.png";
