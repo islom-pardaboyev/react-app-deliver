@@ -11,11 +11,11 @@ const Header = () => {
   const navItems = ["Home", "About", "Promotions", "Blogs", "Contact Us"];
   return (
     <>
-      <header className="relative">
+      <header className="relative h-screen">
           <img
             src={HeaderImg}
             alt="hero-bg"
-            className="absolute top-0 -z-10 opacity-5 w-screen"
+            className="absolute top-0 h-screen -z-10 opacity-5 w-screen"
           />
         <div className="container flex flex-col gap-[7px] mx-auto max-w-[1239px]">
           <div data-aos="fade-down" data-aos-duration="1300" className=" flex items-center pt-[19px] pb-[27px] justify-between">
