@@ -47,7 +47,7 @@ const Header = () => {
               <div className="flex items-center gap-[16px]">
                 <Button title={"Daftar Sekarang"} />
                 <Button
-                  extraStyle={"text-black bg-gray-100"}
+                  extraStyle={"!text-black !bg-gray-100"}
                   title={"About Us"}
                 />
               </div>
