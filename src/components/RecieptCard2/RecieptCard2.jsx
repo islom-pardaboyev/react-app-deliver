@@ -9,7 +9,7 @@ const RecieptCard2 = ({ rate, title, type, Image, bg }) => {
   return (
     <div
       style={{ boxShadow: "0px 11px 39px 0px rgba(0,0,0,0.12)" , backgroundColor: bg}}
-      className="flex items-start pl-[25px] rounded-[17px] hover:scale-125 transition-all duration-300 pt-[33px] w-[287px] h-[306px] flex-col"
+      className="flex items-start pl-[25px] rounded-[17px] hover:scale-110 transition-all duration-300 pt-[33px] w-[287px] h-[306px] flex-col"
     >
       <Image/>
       <Title

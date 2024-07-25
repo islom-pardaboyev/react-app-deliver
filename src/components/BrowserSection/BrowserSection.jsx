@@ -1,14 +1,10 @@
 import React from "react";
 import Title from "../Title/Title";
-import {
-  Cupcake,
-  Doughnut,
-  Kebab,
-  Pizza,
-  Salmon,
-
-} from "../../assets/Icons";
+import Button from "../Button/Button";
+import { Cupcake, Doughnut, Kebab, Pizza, Salmon } from "../../assets/Icons";
 import RecieptCard from "../RecieptCard/RecieptCard";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const BrowserSection = () => {
   const reciept = [
@@ -48,9 +44,7 @@ const BrowserSection = () => {
       count: 11,
     },
   ];
-
-
-
+  Aos.init();
   return (
     <>
       <section className="container mx-auto max-w-[1239px]">
@@ -75,6 +69,20 @@ const BrowserSection = () => {
               Image={item.img}
             />
           ))}
+        </div>
+
+        <div
+          data-aos="fade-up"
+          className="flex items-center justify-end mt-[46px] gap-[13px]"
+        >
+          <Button extraStyle={"flex items-center gap-[7px]"}>
+            <i class="fa-solid w-[33px] h-[33px] bg-white text-green rounded-full flex items-center justify-center fa-chevron-left"></i>
+            PREV
+          </Button>
+          <Button extraStyle={"flex items-center gap-[7px]"}>
+            <i class="fa-solid w-[33px] h-[33px] bg-white text-green rounded-full flex items-center justify-center fa-chevron-right"></i>
+            NEXT
+          </Button>
         </div>
       </section>
     </>

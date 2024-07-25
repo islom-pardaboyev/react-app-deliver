@@ -16,7 +16,7 @@ import {
 } from "../../assets/Icons";
 
 const BrowserSection2 = () => {
-  Aos.init()
+  Aos.init();
   const reciept2 = [
     {
       id: 1,
@@ -84,9 +84,7 @@ const BrowserSection2 = () => {
     },
   ];
   return (
-    <section
-      className="container mx-auto mt-[100px] max-w-[1239px] mb-[191px]"
-    >
+    <section className="container mx-auto mt-[100px] max-w-[1239px] mb-[191px]">
       <div data-aos="flip-right" data-aos-duration="1000">
         <Title
           title={"Browser Our Category"}
@@ -115,8 +113,12 @@ const BrowserSection2 = () => {
         ))}
       </div>
 
-      <div data-aos="fade-up"
-      data-aos-duration="800" className="flex items-center mt-[68px] mb-[59px] justify-center">
+
+      <div
+        data-aos="fade-up"
+        data-aos-duration="800"
+        className="flex items-center mt-[68px] mb-[59px] justify-center"
+      >
         <Button title={"All Receipt"} />
       </div>
     </section>
